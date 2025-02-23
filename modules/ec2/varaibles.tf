@@ -23,7 +23,4 @@ variable "security_group_ids" {
   type        = list(string)
 }
 
-variable "tags" {
-  description = "Tags for the EC2 instance"
-  type        = map(string)
-}
+
