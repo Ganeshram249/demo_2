@@ -29,5 +29,4 @@ module "ec2_instance" {
   key_name         = var.key_name
   subnet_id        = module.subnet.subnet1_id
   security_group_ids = var.security_group_ids
-  tags             = var.ec2_tags
 }
