@@ -5,10 +5,9 @@ az          = "us-west-2a"
 }
 
 
-ami_id            = "ami-0c55b159cbfafe1f0" # Replace with your desired AMI ID
+ami_id            = "ami-00c257e12d6828491" 
 instance_type     = "t2.micro"
 key_name          = "devops"
-#subnet_id         = "subnet-0bb1c79de3EXAMPLE"
 security_group_ids = ["sg-0a1b2c3d4e5f6g7h8"]
 
 }
