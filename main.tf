@@ -21,6 +21,11 @@ module "subnet" {
   az         = var.az
 }
 
+module "security_groups" {
+  source = "./modules/security_groups"
+  vpc_id = module.vpc.vpc_id
+}
+
 module "ec2_instance" {
   source           = "./modules/ec2"
   ami_id           = var.ami_id
