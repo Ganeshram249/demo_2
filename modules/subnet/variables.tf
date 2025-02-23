@@ -13,7 +13,3 @@ variable "az" {
   type        = string
 }
 
-variable "tags" {
-  description = "Tags for the subnet"
-  type        = map(string)
-}
