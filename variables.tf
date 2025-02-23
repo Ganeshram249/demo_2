@@ -18,15 +18,7 @@ variable "az" {
   type        = string
 }
 
-variable "vpc_tags" {
-  description = "Tags for the VPC"
-  type        = map(string)
-}
 
-variable "subnet_tags" {
-  description = "Tags for the subnet"
-  type        = map(string)
-}
 
 variable "ami_id" {
   description = "The AMI ID for the EC2 instance"
@@ -49,8 +41,5 @@ variable "security_group_ids" {
   type        = list(string)
 }
 
-variable "ec2_tags" {
-  description = "Tags for the EC2 instance"
-  type        = map(string)
-}
+
 
