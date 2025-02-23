@@ -4,3 +4,7 @@ resource "aws_subnet" "subnet1" {
   availability_zone = var.az
 
 }
+
+output "subnet1_id" {
+  value = aws_subnet.subnet1.id
+}
