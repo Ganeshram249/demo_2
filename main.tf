@@ -12,7 +12,6 @@ terraform {
 module "vpc" {
   source   = "./modules/vpc"
   vpc_cidr = var.vpc_cidr
-  tags     = var.vpc_tags
 }
 
 module "subnet" {
