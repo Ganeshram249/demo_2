@@ -3,7 +3,3 @@ variable "vpc_cidr" {
   type        = string
 }
 
-variable "tags" {
-  description = "Tags for the VPC"
-  type        = map(string)
-}
