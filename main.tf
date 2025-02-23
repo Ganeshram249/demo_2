@@ -32,5 +32,5 @@ module "ec2_instance" {
   instance_type    = var.instance_type
   key_name         = var.key_name
   subnet_id        = module.subnet.subnet1_id
-  security_group_ids = var.security_group_ids
+  web_sg_id     = module.security_groups.web_sg_id
 }
