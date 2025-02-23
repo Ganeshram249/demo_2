@@ -6,7 +6,6 @@ terraform {
   backend "s3" {
     bucket         = "my-terraform-state-bucket-fxohd5hi"
     key            = "statefile/terraform.tfstate"
-    region         = var.region
   }
 }
 
