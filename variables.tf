@@ -43,10 +43,7 @@ variable "key_name" {
   type        = string
 }
 
-variable "subnet_id" {
-  description = "The subnet ID for the EC2 instance"
-  type        = string
-}
+
 
 variable "security_group_ids" {
   description = "The security group IDs for the EC2 instance"
