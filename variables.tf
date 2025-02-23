@@ -28,11 +28,6 @@ variable "subnet_tags" {
   type        = map(string)
 }
 
-variable "region" {
-  description = "AWS region"
-  type        = string
-}
-
 variable "ami_id" {
   description = "The AMI ID for the EC2 instance"
   type        = string
